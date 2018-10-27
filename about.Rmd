@@ -1,0 +1,15 @@
+---
+title: "about"
+author: "AmalElGanainy"
+date: "٢٧ أكتوبر، ٢٠١٨"
+output: html_document
+---
+# About Amal's Website.
+
+This is the DSS-Developing Data Products Course- Week1 Project
+
+Create a web page using R Markdown that features a map created with Leaflet.
+
+Host your webpage on either GitHub Pages, RPubs, or NeoCities.
+
+Your webpage must contain the date that you created the document, and it must contain a map created with Leaflet.
