@@ -206,7 +206,27 @@ $(document).ready(function () {
 </div>
 
 
+<div id="introduction" class="section level1">
+<h1>Introduction</h1>
+<p>This is an Coursera project defined as follow= “Create a web page using R Markdown that features a map created with Leaflet.</p>
+<p>Host your webpage on either GitHub Pages, RPubs, or NeoCities.</p>
+<p>Your webpage must contain the date that you created the document, and it must contain a map created with Leaflet.</p>
+</div>
+<div id="this-is-the-map-of-my-current-location-in-cairo-egypt." class="section level1">
+<h1>This is the map of my current location in Cairo, Egypt.</h1>
+<pre><code>install.packages(&quot;leaflet&quot;)
 
+setwd(&quot;D:/Data ScienceSpecialization/RProgrammingWork/specdata/Developing-Data-Products.github.io&quot;)
+
+
+
+library(leaflet)
+my_map &lt;- leaflet() %&gt;% addTiles() 
+my_map &lt;- my_map %&gt;% addMarkers(lat=30.044420, lng= 31.235712, popup=&quot;My Home&quot;)
+my_map
+
+</code></pre>
+</div>
 
 
 
